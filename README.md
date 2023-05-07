@@ -1,2 +1,3 @@
 # Prime-Video-Clone
 Prime Video Clone in HTML/CSS
+Prime Video Clone in HTML/CSS with Responsive
