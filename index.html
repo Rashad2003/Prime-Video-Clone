@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prime Video Clone</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="shortcut icon" href="./primevideo.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="#">
+                    <img class="logo" src="./Logo-min.png" alt="logo">
+                </a>
+                <ul class="links">
+                    <li><a href="#">Home<i class="fa-sharp fa-solid
+                                fa-angle-down" style="color: #e1e1e1;"></i></a></li>
+                    <li><a href="#">Store<i class="fa-sharp fa-solid
+                                fa-angle-down" style="color: #e1e1e1;"></i></a></li>
+                    <li><a href="#">Categories<i class="fa-sharp fa-solid
+                                fa-angle-down" style="color: #e1e1e1;"></i></a></li>
+                </ul>
+                <a class="lm" href="#">Menu<i class="fa-sharp fa-solid
+                        fa-angle-down" style="color: #e1e1e1;"></i></a>
+                <a href="#"><img class="search" src="./icons8-search-30.png"
+                        alt=""></a>
+                <a href="#" class="action_btn">Try for free</a>
+                <a href="#" class="lan">EN<i class="fa-sharp fa-solid
+                        fa-angle-down" style="color: #e1e1e1;"></i></a>
+                <img class="user"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTAgMTAwYzI3LjYxNCAwIDUwLTIyLjM4NiA1MC01MFM3Ny42MTQgMCA1MCAwIDAgMjIuMzg2IDAgNTBzMjIuMzg2IDUwIDUwIDUwWiIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Ik04Ni43MTggODMuOTM5Qzc3LjU4MyA5My44MTYgNjQuNTE0IDEwMCA1MCAxMDBjLTE0LjczIDAtMjcuOTc0LTYuMzctMzcuMTI0LTE2LjUwNiAxLjIxMi0zLjA5IDIuOTIyLTUuOTAyIDUuMzA0LTguMjI4QzI1LjQ2IDY4LjE1NyAzOC40MjUgNjUuMjM1IDUwIDY1LjIzNWMxMS41NTQgMCAyMy42NTUgMi45MDYgMzAuOTMzIDkuOTkzIDIuNTEyIDIuNDQ2IDQuNDA1IDUuNDMgNS43ODUgOC43MVoiIGZpbGw9InVybCgjYikiLz48cGF0aCBkPSJNNjkuNTIgMzcuMTFjLjc5NC0xMi4yMTMtNS44OS0yMi4yNjYtMTkuNDY4LTIyLjI2Ni0xMy41NzkgMC0yMC4yNjMgMTAuMDUzLTE5LjQ2OCAyMi4yNjUuNzk1IDEyLjIxMyA4Ljc5NCAyMC43MDMgMTkuNDY4IDIwLjcwMyAxMC42NzMgMCAxOC42NzMtOC40OSAxOS40NjgtMjAuNzAzWiIgZmlsbD0idXJsKCNjKSIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAiIHkxPSIwIiB4Mj0iMTAwIiB5Mj0iMTAwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzRDNzE4RSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJCNDA1MyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg=="
+                    alt="">
+            </div>
+        </div>
+    </header>
+    <header class="hh1">
+        <img class="im1" src="./MLP.jpg" alt="poster">
+        <img class="im2" src="./MLP._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg"
+            alt="">
+        <div class="page">
+            <h1>Welcome to Prime Video</h1>
+            <p>Watch the latest movies, TV shows, and award-winning Amazon
+                Originals</p>
+            <button type="submit">
+                Sign in to join Prime
+            </button>
+        </div>
+    </header>
+    <div class="page11">
+        <h1>Welcome to Prime Video</h1>
+        <p>Watch the latest movies, TV shows, and award-winning Amazon Originals</p>
+        <button type="submit">
+            Sign in to join Prime
+        </button>
+    </div>
+    <header class="hh2">
+        <img class="im3" src="./TVOD_MLP_Left.jpg" alt="poster">
+        <img class="im4"
+            src="./TVOD_MLP_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg"
+            alt="poster">
+        <div class="page1">
+            <h1><b>Movies rentals on Prime Video</b></h1>
+            <p>Early Access to new movies, before digital subscription</p>
+            <button type="submit">Rent now</button>
+        </div>
+    </header>
+    <div class="page12">
+        <h1><b>Movies rentals on Prime Video</b></h1>
+        <p>Early Access to new movies, before digital subscription</p>
+        <button type="submit">Rent now</button>
+    </div>
+    <section class="hh3">
+        <div class="page2">
+            <a href="#" target="_blank"><img
+                    src="./cl/LionsgatePlay-426X2946_V1_200x150.jpg" alt="cl1"><a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/Discovery_200x150.jpg" alt="cl2"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/Erosnow-426X2948_V1_200x150.jpg"
+                            alt="cl3"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/MANORAMAMAX_200x150.jpg" alt="cl4"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/hoichoi-426X2946_V1_200x150.jpg"
+                            alt="cl5"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/Vrott_200x150.png" alt="cl6"></a>
+                    <a href="#" target="_blank"><img src="./cl/Amc_200x150.png"
+                            alt="cl7"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/Docubay-426X2947_V1_200x150.jpg"
+                            alt="cl8"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/Mubi-426X2946_V1_200x150.jpg" alt="cl9"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/iWonder_200x150.png" alt="cl10"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/Stingray_200x150.png" alt="cl11"></a>
+                    <a href="#" target="_blank"><img
+                            src="./cl/ShortsTV_200x150.jpg" alt="cl12"></a>
+                    <div class="fav">
+                        <h1>Your favorite channels all in one place</h1>
+                        <p>With Prime Video Channels, find shows and movies from
+                            your favorite channels all in one place. Enjoy with
+                            an add-on subscription to Channels of your choice</p>
+                    </div>
+                </div>
+            </section>
+            <div class="page15">
+                <h1>Your favorite channels all in one place</h1>
+                <p>With Prime Video Channels, find shows and movies from your
+                    favorite channels all in one place. Enjoy with an add-on
+                    subscription to Channels of your choice</p>
+            </div>
+            <header class="fth">
+                <img class="im5" src="./MLP_Template_Image_Left.jpg"
+                    alt="poster">
+                <img class="im6"
+                    src="./MLP_Template_Image_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg"
+                    alt="poster">
+                <div class="fti" id="fd">
+                    <h1 class="fh"><b>Even better with Fire TV Stick</b></h1>
+                    <p class="fp">The biggest movies and TV shows are always
+                        better on a big screen. Simply plug in your Amazon Fire
+                        TV Stick and stream on any HDTV. Press the voice button
+                        on the remote and say the name of the title you want to
+                        watch to find it in seconds.</p>
+                    <button type="submit">Get started</button>
+                </div>
+            </header>
+            <div class="page13">
+                <h1><b>Even better with Fire TV Stick</b></h1>
+                <p>The biggest movies and TV shows are always better on a big
+                    screen. Simply plug in your Amazon Fire TV Stick and stream
+                    on any HDTV. Press the voice button on the remote and say
+                    the name of the title you want to watch to find it in
+                    seconds.</p>
+                <button type="submit">Get started</button>
+            </div>
+            <header class="mhr">
+                <img class="im7" src="./IN-kids-30Jan._CB1517304519_.jpg"
+                    alt="poster">
+                <img class="im8"
+                    src="./IN-kids-30Jan._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg"
+                    alt="poster">
+                <div class="md" id="md">
+                    <h1 class="mh"><b></b>Family Friendly</b></h1>
+                <p class="mp">With easy to use Parental Controls and a dedicated
+                    kids page, enjoy secure, ad-free kids entertainment. Kids
+                    can enjoy popular TV shows like Peppa Pig, Powerpuff Girls,
+                    and Chhota Bheem.</p>
+                <button type="submit">Get started</button>
+            </div>
+        </header>
+        <div class="page14">
+            <h1><b>Family Friendly</b></h1>
+            <p>With easy to use Parental Controls and a dedicated kids page,
+                enjoy secure, ad-free kids entertainment. Kids can enjoy popular
+                TV shows like Peppa Pig, Powerpuff Girls, and Chhota Bheem.</p>
+            <button type="submit">Get started</button>
+        </div>
+        <footer>
+            <div class="last-logo">
+                <img src="./web_footer_logo._CB462908456_.png" alt="footer-logo"
+                    id="footer-logo">
+                <div id="last">
+                    <p><a href="">Terms and Privacy Notice</a></p>
+                    <p><a href="">Send us feedback</a></p>
+                    <p><a href="">Help</a></p>
+                    <p class="copy">© 1996-2023, Amazon.com, Inc. or its
+                        affiliates</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
